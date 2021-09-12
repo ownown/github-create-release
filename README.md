@@ -1,5 +1,10 @@
 # Create release with one asset
 
+## tags
+
+- **v1**: working action
+- **v1.0.1**: with dependabot merges to update packages
+
 ## Update and modify
 
 Clone the repo and install the dependencies
