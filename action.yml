@@ -1,0 +1,19 @@
+name: 'Wait'
+description: 'Wait a designated number of milliseconds'
+inputs:
+  asset-path:
+    description: The location of the object to be included in the release
+    required: true
+  token:
+    description: GitHub token
+    required: true
+  tag:
+    description: Tag to release
+    required: true
+  asset-name:
+    description: The name the asset should be given in the release
+    required: false
+    default: binary.bin
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
